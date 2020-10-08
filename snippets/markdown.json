@@ -1,0 +1,145 @@
+{
+    "Insert Default": {
+        "prefix": [">default"],
+        "body": [
+            "{% note default %}",
+            "$1",
+            "{% endnote %}$0"
+        ],
+        "description": "Insert Default."
+    },
+    "Insert Checkbox": {
+        "prefix": [">checkbox"],
+        "body": [
+            "{% checkbox checked, $0 %}"
+        ],
+        "description": "Insert Checkbox."
+    },
+    "Insert Cuti": {
+        "prefix": [">b"],
+        "body": [
+            "<strong>$0</strong>"
+        ],
+        "description": "Insert Cuti."
+    },
+    "Insert Plus": {
+        "prefix": [">plus"],
+        "body": [
+            "{% checkbox plus green checked, $0 %}"
+        ],
+        "description": "Insert Plus."
+    },
+    "Insert Minus": {
+        "prefix": [">minus"],
+        "body": [
+            "{% checkbox minus yellow checked, $0 %}"
+        ],
+        "description": "Insert Minus."
+    },
+    "Insert Times": {
+        "prefix": [">times"],
+        "body": [
+            "{% checkbox times red checked, $0 %}"
+        ],
+        "description": "Insert Times."
+    },
+    "Insert Radio": {
+        "prefix": [">radio"],
+        "body": [
+            "{% radio checked, $0 %}"
+        ],
+        "description": "Insert Radio."
+    },
+    "Insert Primary": {
+        "prefix": [">primary"],
+        "body": [
+            "{% note primary %}",
+            "$1",
+            "{% endnote %}$0"
+        ],
+        "description": "Insert Primary."
+    },
+    "Insert Primary No-Icon": {
+        "prefix": [">primary-no-icon"],
+        "body": [
+            "{% note primary no-icon %}",
+            "$1",
+            "{% endnote %}$0"
+        ],
+        "description": "Insert Primary No-Icon."
+    },
+    "Insert Success": {
+        "prefix": [">success"],
+        "body": [
+            "{% note success %}",
+            "$1",
+            "{% endnote %}$0"
+        ],
+        "description": "Insert Success."
+    },
+    "Insert Info": {
+        "prefix": [">info"],
+        "body": [
+            "{% note info %}",
+            "$1",
+            "{% endnote %}$0"
+        ],
+        "description": "Insert Info."
+    },
+    "Insert Warning": {
+        "prefix": [">warning"],
+        "body": [
+            "{% note warning %}",
+            "$1",
+            "{% endnote %}$0"
+        ],
+        "description": "Insert Warning."
+    },
+    "Insert Danger": {
+        "prefix": [">danger"],
+        "body": [
+            "{% note danger %}",
+            "$1",
+            "{% endnote %}$0"
+        ],
+        "description": "Insert Danger."
+    },
+    "Insert Mermaid": {
+        "prefix": [">mermaid"], 
+        "body": [
+            "{% mermaid %}",
+            "$1",
+            "{% endmermaid %}$0"
+        ],
+        "description": "Insert Mermaid."
+    },
+    
+    "Insert Tabs": {
+        "prefix": [">tabs"],
+        "body": [
+            "{% tabs UUID %}",
+            "<!-- tab -->",
+            "$1",
+            "<!-- endtab -->",
+            "<!-- tab -->",
+            "$1",
+            "<!-- endtab -->",
+            "{% endtabs %}$0"
+        ],
+        "description": "Insert Tabs Tensorflow."
+    },
+    "Insert Tabs-Tensorflow": {
+        "prefix": [">tabs_tensorflow"],
+        "body": [
+            "{% tabs UUID %}",
+            "<!-- tab 1.X@iconfont icon-tensorflow-v1 -->",
+            "$1",
+            "<!-- endtab -->",
+            "<!-- tab 2.X@iconfont icon-tensorflow-v2 -->",
+            "$1",
+            "<!-- endtab -->",
+            "{% endtabs %}$0"
+        ],
+        "description": "Insert Tabs Tensorflow."
+    }
+}
